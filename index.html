@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Distance Love Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="title">Long Distance Love Game</h1>
+        <p class="instruction">Guess where the GOLU'S heart is hidden! Click on one of the boxes below.</p>
+
+        <div class="grid">
+            <div class="box" onclick="guess(0)"></div>
+            <div class="box" onclick="guess(1)"></div>
+            <div class="box" onclick="guess(2)"></div>
+            <div class="box" onclick="guess(3)"></div>
+            <div class="box" onclick="guess(4)"></div>
+            <div class="box" onclick="guess(5)"></div>
+        </div>
+
+        <div id="result" class="result"></div>
+        <button id="restart" class="restart-btn" onclick="restartGame()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

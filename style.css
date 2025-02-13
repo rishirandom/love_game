@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffebf0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container */
+.game-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Title */
+.title {
+    font-size: 32px;
+    color: #ff3366;
+    margin-bottom: 10px;
+}
+
+/* Instructions */
+.instruction {
+    font-size: 18px;
+    color: #ff6699;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Boxes */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff99cc;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Heart Icon */
+.box .heart {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #ff3366;
+}
+
+/* Result Text */
+.result {
+    font-size: 20px;
+    color: #ff3366;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Restart Button */
+.restart-btn {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.restart-btn:hover {
+    background-color: #ff6699;
+}
